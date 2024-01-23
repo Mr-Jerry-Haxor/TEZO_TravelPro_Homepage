@@ -265,7 +265,7 @@ nav{
 
 .footer-columns{
     display: flex;
-    margin: 5rem;
+    margin: 0 5rem;
     justify-content: space-between;
 }
 
