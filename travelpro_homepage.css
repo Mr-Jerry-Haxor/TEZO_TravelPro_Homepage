@@ -56,56 +56,59 @@ nav{
 }
 
 .banner-text-caption{
-    color: rgb(202, 40, 0);
+    color: #DE634A;
     margin: 1rem;
 }
 
 .banner-text-title{
     font-size: 3.5rem;
     font-weight: bolder;
-    color: rgb(3, 3, 83);
+    color: #181E4B;
     margin: 1rem;
 }
 
 .banner-text-description{
-    color: rgb(75, 75, 75);
+    color: #616584;
     font-weight: 500;
     text-align: justify;
     margin: 1rem;
 }
 
 .banner-text-button{
-    background-color: rgb(233, 172, 3);
+    background-color: #F1A501;
     border-radius: 10px;
     font-weight: bold;
     color: white;
     border-color: rgba(255, 189, 7, 0);
     padding: 1rem;
     margin: 1rem;
-    box-shadow: 0px 15px 10px 0px rgba(233, 172, 3, 0.183);
+    box-shadow: 0px 38px 93px 16px rgba(254,244,225,1);
 }
 
 .category-container{
     margin-bottom: 5rem;
+    position: relative;
 }
 
 
+.category-container-bg{
+    position: absolute;
+    top: 0;
+    left: 86vw;
+}
 .category-container-title{
-    background: no-repeat;
-    background-image: url('plus.png');
-    background-position: right center;
-    background-origin: content-box;
     padding-bottom: 5rem;
     text-align: center;
 }
 
 .category-container-title h4{
-    color: gray;
+    color:#5B5F80;
 }
 
 .category-container-title h1{
     font-size: 3rem;
     margin: 0;
+    color: #14183E;
 }
 .category-container-cards{
     display: inline-flex;
@@ -140,9 +143,16 @@ nav{
     text-align: center;
 }
 
+.category-container-cards-text h3{
+    color: #08073A;
+}
+
 .category-container-cards-text h6{
     margin: 0 3rem;
-    color: gray;
+    line-height: 1rem;
+    color:#575C7D;
+    text-align: center justify;
+    font-weight: 500;
 }
 
 
@@ -317,10 +327,18 @@ nav{
 
 
 .subscribe-container{
-    background: no-repeat;
-    background-image: url('plus.png');
-    background-position: right center;
-    background-origin: content-box;
+    position: relative;
+}
+
+.subscribe-container-bg{
+    position: absolute;
+    top: 18rem;
+    left: 71rem;
+}
+
+.subscribe-container-bg img{
+    transform: rotate(90deg);
+    height: 7rem;
 }
 
 .subscribe-box{
@@ -486,6 +504,7 @@ nav{
     color: gray;
 }
 .footer-copyright{
+    text-align: center;
     color:gray;
 }
 
