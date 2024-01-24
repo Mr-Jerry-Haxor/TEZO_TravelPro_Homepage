@@ -366,12 +366,12 @@ nav{
 }
 
 .subscribe-box-bgspiral-1 img{
-    z-index: 0;
+    z-index: -1;
     position: absolute;
-    top: 11rem;
+    top: 7rem;
     left: 0.4rem;
-    height: 50%;
-    opacity: 0.3;
+    height: 68%;
+    opacity: 0.1;
 }
 
 .subscribe-box-bgspiral-2 img{
@@ -381,7 +381,7 @@ nav{
     left: 54.8rem;
     height: 50%;
     transform: rotate(270deg);
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 
