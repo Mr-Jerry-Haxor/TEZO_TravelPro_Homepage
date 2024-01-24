@@ -96,8 +96,17 @@ nav{
     background-position: right center;
     background-origin: content-box;
     padding-bottom: 5rem;
+    text-align: center;
 }
 
+.category-container-title h4{
+    color: gray;
+}
+
+.category-container-title h1{
+    font-size: 3rem;
+    margin: 0;
+}
 .category-container-cards{
     display: inline-flex;
     margin: 0 5rem;
@@ -141,7 +150,18 @@ nav{
     margin-bottom: 7rem;
 }
 
+.topselling-container-titles{
+    text-align: center;
+}
 
+.topselling-container-titles h4{
+    color: gray;
+}
+
+.topselling-container-titles h1{
+    font-size: 3rem;
+    margin: 1rem;
+}
 
 .topselling-container-cards{
     display: inline-flex;
@@ -207,6 +227,7 @@ nav{
     font-size: small;
     margin: 0;
 }
+
 .easyandfast-content-subcard-text{
     margin: 1px;
     padding: 0.5rem 0;
@@ -316,6 +337,7 @@ nav{
     position: absolute;
     top: -1rem;
     left: 66rem;
+    height: 3.5rem;
 }
 
 .subscribe-box-content{
@@ -355,12 +377,12 @@ nav{
 
 
 .subscribe-box-form-input{
-    width: 55%;
+    width: 45%;
     height: 2.5rem;
-    padding-left: 35px;
+    padding-left: 3.5rem;
     background: url("assets/mail.png") no-repeat left;
     background-size: 20px;
-    background-position-x: 0.3rem;
+    background-position-x: 1rem;
     background-color: white;
     border:none;
     border-radius: 10px;
@@ -370,7 +392,7 @@ nav{
 .subscribe-box-form-submit{
     margin-left: 1rem;
     background-color: rgb(255, 119, 0);
-    padding: 0.5rem;
+    padding: 0.5rem 2rem;
     border-radius: 10px;
     border-color:  rgba(255, 119, 0, 0);
     color:white;
