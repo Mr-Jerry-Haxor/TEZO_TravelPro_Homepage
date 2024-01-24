@@ -327,6 +327,9 @@ nav{
     color: blueviolet;
 }
 
+progress::-moz-progress-bar { background: blueviolet; }
+progress::-webkit-progress-value { background: blueviolet; }
+progress { color: blueviolet; }
 
 .subscribe-container{
     position: relative;
