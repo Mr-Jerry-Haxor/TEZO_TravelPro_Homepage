@@ -88,6 +88,7 @@ nav{
 .category-container{
     margin-bottom: 5rem;
     position: relative;
+    display: inline-grid;
 }
 
 
@@ -111,7 +112,7 @@ nav{
     color: #14183E;
 }
 .category-container-cards{
-    display: inline-flex;
+    display: flex;
     margin: 0 5rem;
     justify-content: space-around;
 }
@@ -158,6 +159,7 @@ nav{
 
 .topselling-container{
     margin-bottom: 7rem;
+    display: inline-grid;
 }
 
 .topselling-container-titles{
@@ -221,7 +223,7 @@ nav{
 }
 
 .easyandfast-content-subcard{
-    display: inline-flex;
+    display: flex;
     margin-bottom: 1rem;
 }
 
@@ -328,11 +330,12 @@ nav{
 
 .subscribe-container{
     position: relative;
+    display: inline-flex;
 }
 
 .subscribe-container-bg{
     position: absolute;
-    top: 18rem;
+    top: 24rem;
     left: 71rem;
 }
 
@@ -417,7 +420,6 @@ nav{
 }
 
 
-
 .footer-columns{
     display: flex;
     margin: 0 5rem;
@@ -443,7 +445,6 @@ nav{
     width: 18%;
     display: block;
     align-items: center;
-    padding-right: 5rem;
 }
 
 
