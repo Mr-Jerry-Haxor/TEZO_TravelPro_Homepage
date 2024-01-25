@@ -5,7 +5,7 @@ body{
     text-decoration:none;
     color:black;
     margin: auto;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 nav{
@@ -42,36 +42,48 @@ nav{
 
 .banner-container{
     display: inline-flex;
-    margin: 0 5rem;
+    margin: 3rem 5rem;
+    position: relative;
 }
 
 .banner-text{
     justify-content: flex-start;
-    margin: auto;
+    margin: 4rem 0 5rem 0;
+}
+
+.banner-image{
+    position: absolute;
+    top: -2rem;
+    left: 35%;
 }
 
 .banner-image img{
     justify-content: flex-end;
-    max-width: 50vw;
+    max-width: 60vw;
 }
 
 .banner-text-caption{
     color: #DE634A;
     margin: 1rem;
+    font-size: large;
+    font-weight: 500;
 }
 
 .banner-text-title{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: bolder;
     color: #181E4B;
     margin: 1rem;
+    max-width: 55%;
 }
 
 .banner-text-description{
     color: #616584;
     font-weight: 500;
     text-align: justify;
-    margin: 1rem;
+    margin: 1rem 10rem 1rem 1rem;
+    font-size: small;
+    max-width: 35%;
 }
 
 .banner-text-button{
