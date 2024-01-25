@@ -320,16 +320,22 @@ nav{
 }
 
 .easyandfast-topcard-content-percentage{
-    color:blueviolet
+    color:blueviolet;
 }
 
-.easyandfast-topcard-content-progressbar progress{
-    color: blueviolet;
+.easyandfast-topcard-content-progressbar{
+    background-color: rgb(192, 192, 192);
+    border-radius: 15px; 
+    height: 0.5rem;
 }
 
-progress::-moz-progress-bar { background: blueviolet; }
-progress::-webkit-progress-value { background: blueviolet; }
-progress { color: blueviolet; }
+.easyandfast-topcard-content-progressbar-fill{
+    background-color: blueviolet;
+    color: white; 
+    border-radius: 15px;
+    width: 40%;
+    height: 100%;
+}
 
 .subscribe-container{
     position: relative;
