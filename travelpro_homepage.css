@@ -327,6 +327,7 @@ nav{
     background-color: rgb(192, 192, 192);
     border-radius: 15px; 
     height: 0.5rem;
+    width: 130%;
 }
 
 .easyandfast-topcard-content-progressbar-fill{
